@@ -9,6 +9,12 @@ venv\Scripts\activate.bat
 pip install django
 django-admin startproject project .
 python manage.py startapp contact
+criando um usuario:python manage.py createsuperuser
+iniciando django:django-admin startproject nome-da-pasta .
+iniciando o servidor:python manage.py runserver
+aplicando migrações:python manage.py migrate
+fazendo migrações do arquivo models.py :python manage.py makemigrations
+craindo um app:python manage.py startapp nome-do-app
 
 Configurar o git
 
@@ -20,6 +26,8 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+git push origin main -u
+git main -u
 
 Migrando a base de dados do Django
 
